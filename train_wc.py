@@ -34,7 +34,6 @@ if __name__ == "__main__":
     parser.add_argument('--unk', default='unk', help='unknow-token in pre-trained embedding')
     parser.add_argument('--char_hidden', type=int, default=300, help='dimension of char-level layers')
     parser.add_argument('--word_hidden', type=int, default=300, help='dimension of word-level layers')
-    parser.add_argument('--drop_out', type=float, default=0.01, help='dropout ratio')
     parser.add_argument('--epoch', type=int, default=200, help='maximum epoch number')
     parser.add_argument('--start_epoch', type=int, default=0, help='start point of epoch')
     parser.add_argument('--checkpoint', default='./checkpoint/', help='checkpoint path')
